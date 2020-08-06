@@ -77,7 +77,7 @@ describe('details.vue Component', () => {
 
   it('should call eventBus $on method when changedInput emited', async () => {
     axios.get.mockResolvedValue(data)
-    eventBus.$emit('changeInput', {})
+    eventBus.$emit('change-input', {})
     await wrapper.vm.$nextTick()
     expect(wrapper.vm.$router.push).toHaveBeenCalled()
   })

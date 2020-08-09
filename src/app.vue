@@ -27,12 +27,10 @@ export default {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
       font-family: Avenir, Helvetica, Arial, sans-serif;
-
       a {
         color: #0573be;
         text-decoration: none;
       }
-
       .card {
         margin: auto;
         max-width: 100%;
